@@ -47,7 +47,7 @@ h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0}
 /* Barre du haut */
 .top{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 24px;padding:20px 0;border-bottom:1px solid var(--rule)}
 .brand{display:flex;align-items:center;gap:12px;text-decoration:none;font-family:var(--display);font-weight:700}
-.mark{width:38px;height:38px;display:grid;place-items:center;background:var(--ink);color:var(--paper);font-family:var(--display);font-weight:800;font-size:.95rem;border-radius:6px;border-bottom:4px solid var(--accent)}
+.mark{width:56px;height:56px;display:block;border-radius:50%;object-fit:cover;background:var(--ink);border:2px solid var(--accent)}
 .top nav{display:flex;flex-wrap:wrap;gap:6px 22px}
 .top nav a{font-size:.92rem;text-decoration:none;color:var(--muted);padding:4px 0;border-bottom:2px solid transparent}
 .top nav a:hover{color:var(--ink);border-color:var(--accent)}
@@ -169,7 +169,7 @@ footer{padding:28px 0 48px;color:var(--muted);font-size:.86rem}
 <div class="wrap">
 
   <div class="top">
-    <a class="brand" href="#accueil"><span class="mark">LD</span> Lassiné Diomandé</a>
+    <a class="brand" href="#accueil"><img class="mark" src="photo.jpg" alt="Photo de Lassiné Diomandé" width="56" height="56"> Lassiné Diomandé</a>
     <nav aria-label="Sections">
       <a href="#projets">Projets</a>
       <a href="#parcours">Parcours</a>
